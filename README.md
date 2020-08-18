@@ -21,5 +21,17 @@ Automation tool for configuration management tool
 - Cost effective
 - It automates the process of configuration management 
 
-When you are given a task on ansible, the first point of call should be the official documentation.
-Docs.ansible.com
+
+Steps to install Ansible:
+
+1) Create a directory called Ansible
+
+2) Create a new file inside the Ansible directory called vagrantfile
+
+3) Paste the code provided into the vagrantfile. This creates 3 DBs: Web, DB and AWS
+
+4) Navigate to the Ansible directory and use the command vagrant up to initialise the machines.
+
+5) Verify your machines are working by typing `vagrant status`
+
+6) 
